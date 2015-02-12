@@ -1,0 +1,13 @@
+<snippet>
+  <!-- Example: Hello, ${1:this} is a ${2:snippet}. -->
+  <content><![CDATA[
+<h2> 
+	$0
+</h2>
+]]></content>
+  <!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+  <tabTrigger>h2</tabTrigger>
+  <description>html h2 tags</description>
+  <!-- Optional: Set a scope to limit where the snippet will trigger -->
+  <scope>source.js, punctuation.terminator.statement.js</scope>
+</snippet>
